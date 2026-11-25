@@ -1,23 +1,19 @@
 {
   "provider": "한국은행 ECOS",
-  "generated_at": "2026-11-25T22:28:36+09:00",
+  "generated_at": "2026-11-26T03:58:09+09:00",
   "mode": "sample",
   "indicators": {
     "cpi": {
       "table": "901Y009",
       "item": "0",
       "cycle": "M",
-      "start": "202602",
+      "start": "202603",
       "end": "202611",
       "unit": "2020=100",
       "coverage": "sample_max_10",
-      "returned_count": 9,
-      "reported_total": 9,
+      "returned_count": 8,
+      "reported_total": 8,
       "observations": [
-        {
-          "time": "202602",
-          "value": 118.4
-        },
         {
           "time": "202603",
           "value": 118.8
@@ -51,14 +47,14 @@
           "value": 120.73
         }
       ],
-      "updated_at": "2026-11-25T22:28:36+09:00"
+      "updated_at": "2026-11-26T03:58:09+09:00"
     },
     "fx": {
       "table": "731Y001",
       "item": "0000001",
       "cycle": "D",
-      "start": "20261108",
-      "end": "20261125",
+      "start": "20261109",
+      "end": "20261126",
       "unit": "원",
       "coverage": "sample_max_10",
       "returned_count": 10,
@@ -105,23 +101,19 @@
           "value": 1330.8
         }
       ],
-      "updated_at": "2026-11-25T22:28:36+09:00"
+      "updated_at": "2026-11-26T03:58:09+09:00"
     },
     "rate": {
       "table": "722Y001",
       "item": "0101000",
       "cycle": "D",
-      "start": "20261113",
-      "end": "20261125",
+      "start": "20261114",
+      "end": "20261126",
       "unit": "연%",
       "coverage": "sample_max_10",
       "returned_count": 10,
-      "reported_total": 11,
+      "reported_total": 10,
       "observations": [
-        {
-          "time": "20261113",
-          "value": 3.0
-        },
         {
           "time": "20261114",
           "value": 3.0
@@ -157,9 +149,13 @@
         {
           "time": "20261122",
           "value": 3.0
+        },
+        {
+          "time": "20261123",
+          "value": 3.0
         }
       ],
-      "updated_at": "2026-11-25T22:28:36+09:00"
+      "updated_at": "2026-11-26T03:58:09+09:00"
     },
     "gdp": {
       "table": "200Y102",
@@ -209,7 +205,7 @@
           "value": 1.0
         }
       ],
-      "updated_at": "2026-11-25T22:28:36+09:00"
+      "updated_at": "2026-11-26T03:58:09+09:00"
     }
   },
   "errors": {},
