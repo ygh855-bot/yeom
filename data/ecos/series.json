@@ -1,6 +1,6 @@
 {
   "provider": "한국은행 ECOS",
-  "generated_at": "2026-11-26T22:26:52+09:00",
+  "generated_at": "2026-11-27T04:04:25+09:00",
   "mode": "sample",
   "indicators": {
     "cpi": {
@@ -47,23 +47,19 @@
           "value": 120.73
         }
       ],
-      "updated_at": "2026-11-26T22:26:52+09:00"
+      "updated_at": "2026-11-27T04:04:25+09:00"
     },
     "fx": {
       "table": "731Y001",
       "item": "0000001",
       "cycle": "D",
-      "start": "20261109",
-      "end": "20261126",
+      "start": "20261110",
+      "end": "20261127",
       "unit": "원",
       "coverage": "sample_max_10",
       "returned_count": 10,
-      "reported_total": 14,
+      "reported_total": 13,
       "observations": [
-        {
-          "time": "20261109",
-          "value": 1357.9
-        },
         {
           "time": "20261110",
           "value": 1355.7
@@ -99,25 +95,25 @@
         {
           "time": "20261120",
           "value": 1330.8
+        },
+        {
+          "time": "20261123",
+          "value": 1337.3
         }
       ],
-      "updated_at": "2026-11-26T22:26:52+09:00"
+      "updated_at": "2026-11-27T04:04:25+09:00"
     },
     "rate": {
       "table": "722Y001",
       "item": "0101000",
       "cycle": "D",
-      "start": "20261114",
-      "end": "20261126",
+      "start": "20261115",
+      "end": "20261127",
       "unit": "연%",
       "coverage": "sample_max_10",
       "returned_count": 10,
-      "reported_total": 13,
+      "reported_total": 12,
       "observations": [
-        {
-          "time": "20261114",
-          "value": 3.0
-        },
         {
           "time": "20261115",
           "value": 3.0
@@ -153,9 +149,13 @@
         {
           "time": "20261123",
           "value": 3.0
+        },
+        {
+          "time": "20261124",
+          "value": 3.0
         }
       ],
-      "updated_at": "2026-11-26T22:26:52+09:00"
+      "updated_at": "2026-11-27T04:04:25+09:00"
     },
     "gdp": {
       "table": "200Y102",
@@ -205,7 +205,7 @@
           "value": 1.0
         }
       ],
-      "updated_at": "2026-11-26T22:26:52+09:00"
+      "updated_at": "2026-11-27T04:04:25+09:00"
     }
   },
   "errors": {},
